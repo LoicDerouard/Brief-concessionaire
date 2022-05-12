@@ -1,13 +1,80 @@
+footer .footernoir {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #F2F3F3;
+}
+
+footer .footernoir .footernoirRight img {
+  width: 50px;
+  margin: 15px 15px;
+}
+
+footer .footernoir .footernoirLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px;
+  gap: 20px;
+}
+
+footer .footernoir .textFooterNoir a {
+  color: #3A3335;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 15px 15px;
+}
+
+footer .footernoir .textFooterNoir a:hover {
+  color: #DC493A;
+  font-size: 19px;
+}
+
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-ul {
+nav ul {
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  gap: 10%;
 }
 
-li {
-  display: flex;
-} 
+nav li {
+  padding: 0 10px 0 0;
+}
+
+nav #logo {
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */

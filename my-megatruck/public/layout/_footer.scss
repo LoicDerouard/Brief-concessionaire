@@ -1,0 +1,41 @@
+footer {
+    .footernoir {
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #F2F3F3;
+        .footernoirRight {
+            img{
+                width: 50px;
+               margin: 15px 15px;
+            }
+        }
+
+        .footernoirLeft {
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+            gap: 20px;
+        }
+        .textFooterNoir
+        {
+            a 
+            {
+                color: #3A3335;
+               text-decoration: none;
+               font-size: 17px;
+               margin: 15px 15px;
+            }
+            a:hover 
+            {
+                color: #DC493A;
+                font-size: 19px;
+            }
+            
+        }
+    }
+
+
+
+}
