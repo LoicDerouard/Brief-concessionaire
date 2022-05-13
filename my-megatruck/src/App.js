@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState, useEffect } from 'react';
+// import "./main.css";
 
 function App() {
   return (
@@ -10,5 +10,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

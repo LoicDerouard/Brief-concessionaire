@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body class="triangle">
+    <section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.432716923603!2d2.828163115730757!3d50.433040179472954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd30f94fff6c13%3A0xdc792bb2b2b5ffc2!2s72%20Rue%20Casimir%20Beugnet%2C%2062300%20Lens!5e0!3m2!1sfr!2sfr!4v1652433070627!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    <form method="post">
+      <h2>Formulaire</h2>
+      <fieldset>
+        <p>
+          <input type="text" name="prenom" placeholder="Prénom" class="contact" />
+        </p>
+
+        <p>
+          <input type="text" name="nom" placeholder="Nom" class="contact" />
+        </p>
+
+        <p>
+          <input type="text" pattern="[0-9]{2}" placeholder="Téléphone" class="contact" />
+        </p>
+
+        <p>
+          <input type="email" placeholder="Email" class="contact" />
+        </p>
+
+        <p>
+          <select name="objet" class="contact">
+            <option disabled="disabled">
+                Description de la demande
+            </option>   
+            <option value="Je veux un petit camion">
+              Je veux un petit camion
+            </option>
+            <option value="Je veux un camion moyen">
+              Je veux un camion moyen
+            </option>
+            <option value="Je veux un gros camion">
+              Je veux un gros camion
+            </option>
+            <option value="Mon camion est casse">
+                Mon camion est cassé
+            </option>
+            <option value="Mon camion ne mange plus">
+                Mon camion ne mange plus
+            </option>
+            <option value="Jai perdu mon camion">
+                Jai perdu mon camion
+            </option>
+          </select>
+        </p>
+
+        <p>
+          <input type="text"  placeholder="Message" class="message"/>
+        </p>
+      </fieldset>
+      <input type="submit" value="Envoyer" />
+    </form>
+  </section>
+  </body>
+</html>
