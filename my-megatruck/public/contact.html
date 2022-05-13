@@ -1,99 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="contact.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/my-megatruck/public/layout/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <section class="headergris">
-          <div class="headergrisright">
-              <img src="/my-megatruck/images/logo.png" alt="logo">
+</head>
+<body>
+    <body>
+        <header>
+          <section class="headergris">
+              <div class="headergrisright">
+                  <img src="/my-megatruck/images/logo.png" alt="logo">
+              </div>
+              <div class="headergrisleft">
+                  <p class="textheaderNoir"><a href="#">Notre entreprise</a></p>
+                  <p class="textheaderNoir"><a href="#">Louer</a></p>
+                  <p class="textheaderNoir"><a href="#">Acheter</a></p>
+                  <p class="textheaderNoir"><a href="#">Contact</a></p>
+              </div>
+          </section>
+      </header>
+    
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">&times;</a>
+            <ul>
+              <li><a href="#">Notre entreprise</a></li>
+              <li><a href="#">Louer</a></li>
+              <li><a href="#">Acheter</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <section class="reseauxfoot">
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram fa-2x style="></i></a>
+                <a href="https://youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+            </section>
+            <img src="/my-megatruck/images/logo.png">
           </div>
-          <div class="headergrisleft">
-              <p class="textheaderNoir"><a href="#">Notre entreprise</a></p>
-              <p class="textheaderNoir"><a href="#">Louer</a></p>
-              <p class="textheaderNoir"><a href="#">Acheter</a></p>
-              <p class="textheaderNoir"><a href="#">Contact</a></p>
+          
+          
+          <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+    </nav>
+    <main>
+      <section class="container">
+          <div class="formulaire">
+            <h1>Formulaire de contact</h1>
+            <form action="/action_page.php">
+              <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+          
+              <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+          
+              <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+          
+              <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+          
+              <input type="submit" id="submit" value="Envoyer">
+            </form>
           </div>
       </section>
-  </header>
-
-<nav>
-    <div id="mySidenav" class="sidenav">
-        <a id="closeBtn" href="#" class="close">&times;</a>
-        <ul>
-          <li><a href="#">Notre entreprise</a></li>
-          <li><a href="#">Louer</a></li>
-          <li><a href="#">Acheter</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <section class="reseauxfoot">
-            <a href="https://instagram.com"><i class="fa-brands fa-instagram fa-2x style="></i></a>
-            <a href="https://youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a>
-            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+    </main>
+    
+      <footer>
+        <section class="footernoir">
+            <section class="reseauxfoot">
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram fa-2x style="></i></a>
+                <a href="https://youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+            </section>
+            <div class="footernoirLeft">
+                <p class="textFooterNoir"><a href="#">Mentions légales</a></p>
+                <p class="textFooterNoir"><a href="#">Politique de confidentialité</a></p>
+                <p class="textFooterNoir"><a href="#">Presse</a></p>
+                <p class="textFooterNoir"><a href="#">Gestion des cookies</a></p>
+                
+            </div>
+            <div class="footernoirRight">
+                <img src="/my-megatruck/images/logo_de_team.png" alt="logo">
+            </div>
         </section>
-        <img src="/my-megatruck/images/logo.png">
-      </div>
-      
-      
-      <a href="#" id="openBtn">
-        <span class="burger-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-      </a>
-</nav>
-
-
-
-  <section class="container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.432716923603!2d2.828163115730757!3d50.433040179472954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd30f94fff6c13%3A0xdc792bb2b2b5ffc2!2s72%20Rue%20Casimir%20Beugnet%2C%2062300%20Lens!5e0!3m2!1sfr!2sfr!4v1652433070627!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="formulaire">
-        <h1>Formulaire de contact</h1>
-        <form action="/action_page.php">
-          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
-      
-          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
-      
-          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
-      
-          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
-      
-          <input type="submit" value="Envoyer">
-        </form>
-      </div>
-  </section>
-
-
-
-  <footer>
-    <section class="footernoir">
-        <section class="reseauxfoot">
-            <a href="https://instagram.com"><i class="fa-brands fa-instagram fa-2x style="></i></a>
-            <a href="https://youtube.com"><i class="fa-brands fa-youtube fa-2x"></i></a>
-            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
-        </section>
-        <div class="footernoirLeft">
-            <p class="textFooterNoir"><a href="#">Mentions légales</a></p>
-            <p class="textFooterNoir"><a href="#">Politique de confidentialité</a></p>
-            <p class="textFooterNoir"><a href="#">Presse</a></p>
-            <p class="textFooterNoir"><a href="#">Gestion des cookies</a></p>
-            
-        </div>
-        <div class="footernoirRight">
-            <img src="/my-megatruck/images/logo_de_team.png"" alt="logo">
-        </div>
-    </section>
-</footer>
-
-
-  </body>
-  <script src="nav.js"></script>
+      </footer>
+    
+    
+      </body>
+      <script src="nav.js"></script>
 </html>
