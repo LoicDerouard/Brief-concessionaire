@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="stylesheet" href="main.css">
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  
-  </body>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="stylesheet" href="main.css">
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React App</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+
+  <!-- debut de la grid achat ou louer -->
+  <ul>
+    <li>
+      <img src="../images/camion1.jpg" alt="image" class="camion">
+      <p>
+        <label for="choix"></label>
+        <select name="acheter" id="acheter">
+          <option value="acheter">Acheter</option>
+          <option value="louer">Louer</option>
+        </select>
+      </p>
+      <p>prix</p>
+      <i id="basket" class="fa-solid fa-basket-shopping"></i>
+    </li>
+   
+  </ul>
+  <!-- fin de cette même grid -->
+</body>
+
 </html>
