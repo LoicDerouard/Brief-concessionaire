@@ -167,16 +167,165 @@
   }
 }
 
-header {
-  width: 100%;
-  height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (min-width: 861px) {
+  header {
+    background-color: #949B96;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .headergris {
+    width: 100%;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .headergrisleft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+  }
+  header .headergrisleft a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #3A3335;
+  }
+  header .headergrisleft a:hover {
+    color: #DC493A;
+    font-size: 20px;
+  }
+  header .headergrisright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .headergrisright img {
+    width: 120px;
+    height: 100%;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  header {
+    background-color: #949B96;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .headergris {
+    width: 100%;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .headergrisleft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+  }
+  header .headergrisleft a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #3A3335;
+  }
+  header .headergrisright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .headergrisright img {
+    width: 120px;
+    height: 100%;
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    background-color: #949B96;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .headergris {
+    width: 100%;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .headergrisleft {
+    display: none;
+  }
+  header .headergrisleft a {
+    display: none;
+  }
+  header .headergrisright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .headergrisright img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 120px;
+  }
 }
 
 @media screen and (min-width: 861px) {
@@ -268,6 +417,11 @@ header {
     background-color: black;
     margin: 6px 0;
   }
+  .burger-icon {
+    position: fixed;
+    top: 1%;
+    left: 3%;
+  }
   img {
     width: 200px;
   }
@@ -334,6 +488,11 @@ header {
     height: 5px;
     background-color: black;
     margin: 6px 0;
+  }
+  .burger-icon {
+    position: fixed;
+    top: 1%;
+    left: 3%;
   }
   img {
     width: 200px;
