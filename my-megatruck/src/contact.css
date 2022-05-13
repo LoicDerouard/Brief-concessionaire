@@ -47,6 +47,10 @@ html
     /* redéfinition 400 + 2*20 */
     max-width: 440px;
     margin:0 auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   h1  {
     color: #0051ff;
