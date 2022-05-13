@@ -44,10 +44,6 @@ export default function App() {
           </li>
         ))}
     </ul>
-
-
-
-
     
   </div>
 }
