@@ -1,0 +1,128 @@
+@media screen and (min-width: 861px) {
+    .footernoir {
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #3a3335;
+        width: 100%;
+        height: 100px;
+        align-items: center;
+    }
+    .footernoirRight img {
+        width: 50px;
+        margin: 15px 15px;
+    }
+
+    .footernoirLeft {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        gap: 20px;
+    }
+
+    .textFooterNoir a {
+        color: #949b96;
+        text-decoration: none;
+        font-size: 17px;
+        margin: 15px 15px;
+    }
+
+    .textFooterNoir a:hover {
+        color: #dc493a;
+        font-size: 19px;
+    }
+
+    .reseauxfoot {
+        display: flex;
+    }
+    .reseauxfoot i {
+        margin: 5px 15px;
+        color: #949b96;
+    }
+
+    .reseauxfoot i:hover {
+        color: #dc493a;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .footernoir {
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #3a3335;
+        width: 100%;
+        height: 80px;
+        align-items: center;
+    }
+    .footernoirRight img {
+        width: 50px;
+        margin: 15px 15px;
+    }
+
+    .footernoirLeft {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .textFooterNoir a {
+        color: #dc493a;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 15px 10px 0px;
+    }
+
+    .reseauxfoot {
+        display: flex;
+    }
+    .reseauxfoot i {
+        margin: 10px;
+        color: #dc493a;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .footernoir {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #3a3335;
+        width: 100%;
+        height: 450px;
+        padding-top: 10px;
+        align-items: center;
+    }
+    .footernoirRight img {
+        width: 50px;
+        margin: 15px 15px;
+    }
+
+    .footernoirLeft {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .textFooterNoir a {
+        color: #dc493a;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 15px 10px 0px;
+    }
+
+    .reseauxfoot {
+        display: flex;
+        margin: 20px 0 0 0;
+    }
+    .reseauxfoot i {
+        margin: 10px;
+        color: #dc493a;
+        font-size: 20px;
+    }
+}
