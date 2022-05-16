@@ -133,3 +133,72 @@ h1 {
     width: 100%;
   }
 }
+
+
+@media screen and (min-width: 389px) and (max-width: 415px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top left, #fff 50%, red 50%);
+    background-repeat: no-repeat;
+  }
+
+  #fname,
+  #sujet,
+  #emailAddress,
+  #subject {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  label {
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #1872d9;
+  }
+
+  .container {
+    border-radius: 7px;
+    background-color: #f2f2f2;
+    width: 90%;
+    max-height: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0%, 13%);
+    padding: 10px 20px;
+  }
+  h1 {
+    color: #0051ff;
+    width: 100%;
+  }
+}
