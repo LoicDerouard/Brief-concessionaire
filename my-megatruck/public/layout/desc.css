@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   background: linear-gradient(to top left, #fff 50%, red 50%);
   width: 100%;
-  height: 83vh;
+  height: 85.1vh;
 }
 
 .description img {
@@ -38,6 +38,14 @@
 
 .description section article input {
   margin-top: 15px;
+  border-radius: 50px;
+  height: 24px;
+  padding: 15px;
+}
+
+select{
+  border-radius: 50px;
+  height: 34px;
 }
 
 .description section article a {
