@@ -1,12 +1,25 @@
+html
+{
+  width: 100%;
+  background: linear-gradient(to top left, #fff 50%, red 50%) no-repeat;
+}
+
 .App {
   max-width: 1200px;
   margin: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  
 }
 ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   align-items: center;
+  height: 900px;
 }
 li {
   display: flex;
@@ -30,4 +43,19 @@ img {
   font-weight: 500;
   font-size: x-large;
   margin-top: 3px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+input
+{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 50px;
+  text-align: center;
+  color: black;
 }
