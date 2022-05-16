@@ -35,6 +35,10 @@ margin: 30px;
   display: block;
 }
 
+.description section article input{
+  margin-top: 15px;
+}
+
 .description section article a{
   text-decoration: none;
   color: #000;
