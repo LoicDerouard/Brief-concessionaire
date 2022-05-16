@@ -110,7 +110,7 @@
     position: fixed;
     z-index: 1;
     top: 0;
-    left: -350px;
+    left: -500px;
     background-color: #3a3335;
     padding-top: 60px;
     transition: left 0.5s ease;
