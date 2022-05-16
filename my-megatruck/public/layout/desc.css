@@ -6,32 +6,63 @@
 }
 .description{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  background: linear-gradient(to top left, #fff 50%, red 50%);
+  width: 100%;
+  height: 83vh;
 }
 
 .description img{
-  margin: 30px;
-  
+margin: 30px;
+  object-fit: cover;
+  width: 45%;
+  height: 600px;
+  border: #000 solid 3px;
 }
 .description section{
   display: flex;
-  justify-content: space-between;
-  align-items: end;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .description section article{
   padding: 15px;
-  width: 400px;
+  width: 350px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.description section article input{
+  margin-top: 15px;
+}
+
+.description section article a{
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+  background-color: rgb(182, 182, 182);
+  border-radius: 50px;
+  margin-left: 15px;
+  transition: all .3s;
+}
+
+.description section article a:hover{
+  background-color: rgb(230, 0, 0);
+  color: #fff;
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 960px){
   .description img{
     width: 100%;
-    
+    margin: 0;
     height: auto;
   }
-
+  .description section article{
+    width: 100%;
+  }
 }
