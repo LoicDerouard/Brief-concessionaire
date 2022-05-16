@@ -9,25 +9,25 @@ export default function App() {
   const [data, setData] = useState(null);
 
 
-  useEffect( () => {
-    getAllData() ;
+  useEffect(() => {
+    getAllData();
 
 
-},[]) ;
+  }, []);
 
   const getAllData = () => {
 
     axios.get('bd/megatruck.json')
-    .then(res => {
-      const p = res.data;
-      setData( p );
+      .then(res => {
+        const p = res.data;
+        setData(p);
 
-    });
+      });
 
   }
   return <div className='App'>
     <h1>Nos Camions</h1>
-      <input placeholder='Recherche' onChange={event => setQuery(event.target.value)} />
+    <input placeholder='Recherche' onChange={event => setQuery(event.target.value)} />
     <ul>
       {data &&
         data.filter(post => {
@@ -39,11 +39,11 @@ export default function App() {
         }).map(({ id, title, price, images }) => (
           <li key={id}>
             <h3 className='titre'>{title}</h3>
-             <img src={images} />
+            <img src={images} />
             <p className='prix'>{price}</p>
           </li>
         ))}
     </ul>
-    
+
   </div>
 }
