@@ -4,53 +4,65 @@
   padding:0;
   box-sizing: border-box;
 }
-
-.description {
-  padding-top: 80px;
-  width: 100%;
-}
-.description section {
+.description{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
-  align-items: end;
+  background: linear-gradient(to top left, #fff 50%, red 50%);
   width: 100%;
-}
-section img{
-  width: 600px;
-}
-.description section article {
-  width: 600px;
-}
-.description section article p {
-  margin: 30px 0;
+  height: 83vh;
 }
 
-.description section article a {
+.description img{
+margin: 30px;
+  object-fit: cover;
+  width: 45%;
+  height: 600px;
+  border: #000 solid 3px;
+}
+.description section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.description section article{
+  padding: 15px;
+  width: 350px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
   display: block;
+}
+
+.description section article input{
+  margin-top: 15px;
+}
+
+.description section article a{
   text-decoration: none;
   color: #000;
-  padding: 20px;
-  background-color: rgb(228, 224, 224);
-  width: 150px;
-  text-align: center;
+  padding: 15px;
+  background-color: rgb(182, 182, 182);
   border-radius: 50px;
-  font-weight: 700;
-  font-family: sans-serif;
-  transition: all .3s ease-in-out;
+  margin-left: 15px;
+  transition: all .3s;
 }
 
 .description section article a:hover{
-  background-color: #dc493dda;
+  background-color: rgb(230, 0, 0);
   color: #fff;
 }
 
-@media screen and (max-width: 600px){
-  section img{
+
+@media screen and (max-width: 960px){
+  .description img{
     width: 100%;
+    margin: 0;
     height: auto;
   }
-footer{
-  
-}
+  .description section article{
+    width: 100%;
+  }
 }
