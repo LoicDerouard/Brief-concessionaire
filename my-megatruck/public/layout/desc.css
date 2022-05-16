@@ -1,10 +1,9 @@
-
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
-.description{
+.description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,21 +13,21 @@
   height: 83vh;
 }
 
-.description img{
-margin: 30px;
+.description img {
+  margin: 30px;
   object-fit: cover;
   width: 45%;
   height: 600px;
   border: #000 solid 3px;
 }
-.description section{
+.description section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.description section article{
+.description section article {
   padding: 15px;
   width: 350px;
   height: auto;
@@ -37,33 +36,32 @@ margin: 30px;
   display: block;
 }
 
-.description section article input{
+.description section article input {
   margin-top: 15px;
 }
 
-.description section article a{
+.description section article a {
   text-decoration: none;
   color: #000;
   padding: 15px;
   background-color: rgb(182, 182, 182);
   border-radius: 50px;
   margin-left: 15px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.description section article a:hover{
+.description section article a:hover {
   background-color: rgb(230, 0, 0);
   color: #fff;
 }
 
-
-@media screen and (max-width: 960px){
-  .description img{
+@media screen and (max-width: 960px) {
+  .description img {
     width: 100%;
     margin: 0;
     height: auto;
   }
-  .description section article{
+  .description section article {
     width: 100%;
   }
 }
