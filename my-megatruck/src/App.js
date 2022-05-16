@@ -38,8 +38,8 @@ export default function App() {
           }
         }).map(({ id, title, price, images }) => (
           <li key={id}>
-            <img src={images} />
             <h3 className='titre'>{title}</h3>
+             <img src={images} />
             <p className='prix'>{price}</p>
           </li>
         ))}

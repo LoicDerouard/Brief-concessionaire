@@ -1,56 +1,56 @@
 [
 {
     "id":"1",
-    "title":"hmr",
+    "title":"HMR",
     "images":"./images/camion1.jpg",
     "price":"60K"
 },
 
 {
     "id":"2",
-    "title":"toyota",
+    "title":"TOYOTA",
     "images":"./images/camion2.jpg",
     "price":"70K"
 },
 {
     "id":"3",
-    "title":"ford",
+    "title":"FORD",
     "images":"./images/camion3.jpg",
     "price":"90K"
 },
 {
     "id":"4",
-    "title":"renault",
+    "title":"RENAULT",
     "images":"./images/camion4.jpg",
     "price":"55K"
 },
 {
     "id":"5",
-    "title":"hmr 2",
+    "title":"HMR 2",
     "images":"./images/camion5.jpg",
     "price":"60K"
 },
 {
     "id":"6",
-    "title":"peugeot",
+    "title":"PEUGEOT",
     "images":"./images/camion6.jpg",
     "price":"40K"
 },
 {
     "id":"7",
-    "title":"dodge",
+    "title":"DODGE",
     "images":"./images/camion7.jpg",
     "price":"65K"
 },
 {
     "id":"8",
-    "title":"crysler",
+    "title":"CRYSLER",
     "images":"./images/camion8.jpg",
     "price":"60K"
 },
 {
     "id":"9",
-    "title":"mercedes",
+    "title":"MERCEDES",
     "images":"./images/camion9.jpg",
     "price":"75K"
 }
