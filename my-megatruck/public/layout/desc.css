@@ -15,9 +15,8 @@
 
 .description img {
   margin: 30px;
-  object-fit: cover;
-  width: 45%;
-  height: 600px;
+  width: 60%;
+  height: 425px;
   border: #000 solid 3px;
 }
 .description section {
@@ -65,7 +64,6 @@ select{
 
 @media screen and (max-width: 960px) {
   .description img {
-    width: 100%;
     margin: 0;
     height: auto;
   }

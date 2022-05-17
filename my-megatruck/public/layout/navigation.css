@@ -44,7 +44,7 @@
     z-index: 1;
     top: 0;
     left: -650px;
-    background-color: #3a3335;
+    background-color: rgba(58, 51, 53, .9);
     padding-top: 60px;
     transition: left 0.5s ease;
     align-items: center;
@@ -66,10 +66,9 @@
   .sidenav a {
     text-decoration: none;
     font-size: 25px;
-    color: #949b96;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
-    background-color: #3a3335;
   }
   .sidenav ul {
     height: 60%;
@@ -78,6 +77,9 @@
     align-items: center;
     justify-content: space-evenly;
 
+  }
+  .sidenav li{
+    display: flex;
   }
 
   .sidenav a:hover {
