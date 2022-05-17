@@ -1,10 +1,10 @@
-html {
+.App {
   width: 100%;
   background: linear-gradient(to top left, #fff 50%, red 50%) no-repeat;
 }
 
 .App {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
   height: auto;
   display: flex;
@@ -25,13 +25,18 @@ li {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  border: solid 3px #3a3335;
 }
 img {
   margin: 10px 0 10px 0;
   width: 250px;
   height: 150px;
-  border-radius: 10px;
+  
+}
+img.camion_image{
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
 }
 .titre {
   margin-bottom: 3px;
@@ -57,7 +62,7 @@ input {
   color: #3a3335;
 }
 @media screen and (max-width: 861px) {
-  html {
+  .App {
     background: linear-gradient(to top left, #fff 50%, red 50%) no-repeat;
   }
 
@@ -84,7 +89,6 @@ input {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    border: solid 3px black;
   }
   img {
     margin: 10px 0 10px 0;
@@ -165,7 +169,7 @@ input {
   }
 }
 @media screen and (max-width: 600px) {
-  html {
+  .App {
     background: linear-gradient(to top left, #fff 50%, red 50%) no-repeat;
   }
 
@@ -191,7 +195,6 @@ input {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    border: solid 3px black;
   }
   img {
     margin: 10px 0 10px 0;
@@ -226,12 +229,12 @@ input {
   .footernoir {
     padding-left: 0;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color:#3a3335;
     width: 100%;
     align-items: center;
     position: relative;
+    z-index: 5;
     bottom: 0;
   }
   .footernoirRight img {
@@ -241,10 +244,11 @@ input {
   }
 
   .footernoirLeft {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 5px;
     gap: 20px;
+
   }
 
   .textFooterNoir a {
@@ -274,5 +278,16 @@ input {
     width: 120px;
     height: 60%;
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .App {
+    background: linear-gradient(to top left, #fff 50%, red 50%) no-repeat;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
   }
 }
