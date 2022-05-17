@@ -93,6 +93,7 @@
     height: 5px;
     background-color: black;
     margin: 6px 0;
+    z-index: 1;
   }
   .burger-icon {
     position: fixed;
