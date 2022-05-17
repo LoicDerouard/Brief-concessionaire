@@ -100,7 +100,7 @@
         padding-left: 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         background-color: #3a3335;
         width: 100%;
         align-items: center;
@@ -114,10 +114,7 @@
     }
 
     .footernoirLeft {
-        display: flex;
-        flex-direction: row;
-        padding: 5px;
-        gap: 10px;
+        display: none;
     }
 
     .textFooterNoir a {
@@ -133,7 +130,7 @@
     }
 
     .reseauxfoot {
-        display: none
+        display: flex;
     }
     .reseauxfoot i {
         margin: 5px 15px;

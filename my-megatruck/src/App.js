@@ -39,7 +39,7 @@ export default function App() {
         }).map(({ id, title, price, images }) => (
           <li key={id}>
             <h3 className='titre'>{title}</h3>
-            <img src={images} />
+            <a href="./description.html"><img src={images}/></a>
             <p className='prix'>{price}</p>
           </li>
         ))}
