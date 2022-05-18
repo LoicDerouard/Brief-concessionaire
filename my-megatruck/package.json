@@ -2,7 +2,7 @@
   "name": "my-megatruck",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LoicDerouard.github.io/Brief-concessionaire/my-megatruck/ ",
+  "homepage": "https://LoicDerouard.github.io/Brief-concessionaire/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
