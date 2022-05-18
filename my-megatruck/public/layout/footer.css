@@ -114,7 +114,10 @@
     }
 
     .footernoirLeft {
-        display: none;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        gap: 10px;
     }
 
     .textFooterNoir a {
@@ -130,7 +133,7 @@
     }
 
     .reseauxfoot {
-        display: flex;
+        display: none
     }
     .reseauxfoot i {
         margin: 5px 15px;
