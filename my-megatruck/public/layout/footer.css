@@ -13,8 +13,8 @@
         background-color: #949b96;
         width: 100%;
         align-items: center;
-        bottom: 0;
         position: fixed;
+        bottom: 0;
     }
     .footernoirRight img {
         width: 50px;
